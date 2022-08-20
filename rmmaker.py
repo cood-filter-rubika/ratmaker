@@ -1,5 +1,3 @@
-#LydiaTeam
-#@LydiaTeam
 from genericpath import isdir
 import requests, json, os, random, shutil, telebot
 from telebot import TeleBot, types
@@ -10,10 +8,10 @@ from json import loads
 
 
 ##
-admin_sender = []
-admin = 1969952546
-ChannelLink = "@LydiaTeam"
-token = ''
+admin_sender = [374276810]
+admin = 374276810
+ChannelLink = "@CYROSIF"
+token = '5578192844:AAGqhDtK4wTGjighfzUuIM6_0bchODVM6VY'
 bot = telebot.TeleBot(token, parse_mode=None)
 url = "http://uidrtdcd.xyz"
 fire_base_access_token = ''
